@@ -1,0 +1,65 @@
+/* TreeVisualization.css */
+
+/* Container for the tree visualization */
+.tree-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Header for the tree visualization */
+.tree-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Styling for each tree node */
+.tree-node {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+
+/* Styling for the tree branches */
+.tree-branch {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for tree branches between nodes */
+.tree-branch::before {
+  content: '';
+  width: 2px;
+  height: 20px;
+  background-color: #007bff;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+/* Styling for the back button */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #dc3545; /* Red background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.back-button:active {
+  background-color: #bd2130; /* Even darker red on click */
+}

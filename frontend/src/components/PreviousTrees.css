@@ -1,0 +1,55 @@
+/* PreviousTrees.css */
+.tree-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.tree-node {
+  text-align: center;
+  margin: 10px;
+}
+
+.node-value {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.tree-children {
+  display: flex;
+  justify-content: center;
+}
+
+.tree-left, .tree-right {
+  margin: 0 20px;
+}
+
+.back-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+
+.back-button:active {
+  background-color: #3e8e41;
+}
